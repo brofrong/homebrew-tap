@@ -1,6 +1,6 @@
 cask "sd-sync-immich" do
-  version "0.5.5"
-  sha256 "7945705e367bc60816ef212d1a43f627789dd353771aa457714599f6f90d1870"
+  version "0.6.0"
+  sha256 "418b6029b18a6daa6d72ee4614170d492f7209da147cd7051d2604636281dd67"
 
   url "https://github.com/brofrong/sd-sync-iimich/releases/download/v#{version}/SD-Sync-Immich.dmg"
   name "SD Sync Immich"
