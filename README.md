@@ -1,6 +1,6 @@
 # brofrong/homebrew-tap
 
-Homebrew casks for [SD Sync Immich](https://github.com/brofrong/sd-sync-iimich):
+Homebrew casks for [SD Sync Immich](https://github.com/brofrong/sd-sync-immich):
 insert the SD card, the photos go to Immich.
 
 ```bash

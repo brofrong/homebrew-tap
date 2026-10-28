@@ -2,10 +2,10 @@ cask "sd-sync-immich" do
   version "0.6.0"
   sha256 "418b6029b18a6daa6d72ee4614170d492f7209da147cd7051d2604636281dd67"
 
-  url "https://github.com/brofrong/sd-sync-iimich/releases/download/v#{version}/SD-Sync-Immich.dmg"
+  url "https://github.com/brofrong/sd-sync-immich/releases/download/v#{version}/SD-Sync-Immich.dmg"
   name "SD Sync Immich"
   desc "Uploads new photos from a camera's SD card to Immich"
-  homepage "https://brofrong.github.io/sd-sync-iimich/"
+  homepage "https://brofrong.github.io/sd-sync-immich/"
 
   livecheck do
     url :url

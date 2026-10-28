@@ -23,9 +23,9 @@ jobs:
         run: |
           set -euo pipefail
           cask=Casks/sd-sync-immich.rb
-          tag=$(gh release view --repo brofrong/sd-sync-iimich --json tagName --jq .tagName)
+          tag=$(gh release view --repo brofrong/sd-sync-immich --json tagName --jq .tagName)
           version=${tag#v}
-          sha=$(curl -fsSL "https://github.com/brofrong/sd-sync-iimich/releases/download/$tag/checksums.txt" \
+          sha=$(curl -fsSL "https://github.com/brofrong/sd-sync-immich/releases/download/$tag/checksums.txt" \
             | awk '$2 == "SD-Sync-Immich.dmg" { print $1 }')
           if [[ ! $version =~ ^[0-9]+\.[0-9]+\.[0-9]+$ || ! $sha =~ ^[0-9a-f]{64}$ ]]; then
             echo "unexpected release: tag $tag, sha256 '$sha'" >&2
